@@ -18,9 +18,9 @@ do
 		else
 			if [[ $guess > $total ]]
 			then
-				echo "There is less try again:"
+				echo "your guess is higher than the total files , try again:"
 			else
-				echo "There is more try again"
+				echo "your gess is lower than the total files ,try again"
 			fi
 		fi
 	}
